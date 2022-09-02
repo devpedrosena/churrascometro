@@ -20,9 +20,9 @@ function calc(){
 
 function msg(totalCarne,totalCerveja,totalAguaErefri){
     let resultado = document.getElementById("resultado");
-    resultado.innerHTML = `<p>Você vai precisar de: ${totalCarne.toFixed(2)}kg de carne</p>`;
-    resultado.innerHTML += `<p>${totalCerveja}ml de cerveja</p>`;
-    resultado.innerHTML += `<p>${totalAguaErefri}ml de refri ou água.</p>`;
+    resultado.innerHTML = `<p>${totalCarne.toFixed(2)}kg de carne</p>`;
+    resultado.innerHTML += `<p>${Math.ceil(totalCerveja / 350)} latas de 350ml de cerveja</p>`;
+    resultado.innerHTML += `<p>${Math.ceil(totalAguaErefri / 2000)} pets de 2L de refrigerante</p>`;
 }
 
 function aguaErefri(duracao){
