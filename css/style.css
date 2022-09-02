@@ -4,7 +4,7 @@
     width: 100%;
     margin: auto;
     padding: 13px 25px;
-    background-color: rgb(23, 214, 166);
+    background-color: rgb(7, 117, 99);
     color:rgb(44, 44, 44);
     border-radius: 10px;
     text-align: center;
@@ -16,7 +16,7 @@
 h1{
     padding: 10px;
     font-weight: bold;
-    color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
 }
 
 p{
@@ -51,4 +51,18 @@ input{
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     background-color: rgb(252, 252, 252);
+}
+
+.footer{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.footer #footer{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    margin: 0;
 }
